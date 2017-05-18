@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-vector-drawable-25.3.1_838a58fb8b48a090157fa000f6d4f2a4ab7b9578.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-appcompat-v7-25.3.1_9510a5cbbb08284d0dcef20c7eac15e6a189a316.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-v4-25.3.1_fb0d656bc5cecdb5f5e7387603126c9b60f14dc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-utils-25.3.1_443f4fcf53ee012a613e0c64e1ac0c3911bee8c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-animated-vector-drawable-25.3.1_3a8dcee3f6b477cb8a9f0e45a1d02b58fcbdbd2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-transition-25.3.1_6cec235f4e13b1953938fac8dcb5d345ed4fd94f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-compat-25.3.1_c976311f136382153b540f1db17ce5793f0bcba5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-design-25.3.1_f01506ae1ad26536b0514d6239f5a407cde66dac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-media-compat-25.3.1_3adedda49b522977c51b0c6a1d1c02097e5541bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/rpsconf/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a3e74f5f1ebe12c7cfa6591158ef298c95a5275f">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/binding-generator_dd8b54563da99eb16bd972157401c83f791ada8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-ui-25.3.1_815719f252ae2877521266525ecd81a3c6eab44e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/rpsconf/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8e45d63bd91f9a51a9e6f9c96be7a01deb415690">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/rpsconf-runtime-unspecified_f4402128e1fdcc79987b9475f596203bcb01a6cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-25.3.1_e36cfdd2f9a07a06cda94be26e0167a19e0fe562.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0366b761ae7f79749c685f953a1f9ced2e166de0">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/intermediates-exploded-aar-widgets-release_5c1fb9bc9793f236a48257669025bb1df242afc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-recyclerview-v7-25.3.1_5ec4b2ae6f9e048bffb56fdb19fc380c84837e17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-fragment-25.3.1_da139fb15f9fbe59ee4e84b80323fefce86cb140.jar" />
+    </item>
+
+</items>

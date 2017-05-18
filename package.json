@@ -1,0 +1,24 @@
+{
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "readme": "NativeScript Application",
+  "repository": "<fill-your-repository-here>",
+  "main": "app.js",
+  "nativescript": {
+    "id": "org.nativescript.rpsconf",
+    "tns-android": {
+      "version": "3.0.0"
+    }
+  },
+  "dependencies": {
+    "tns-core-modules": "3.0.0"
+  },
+  "devDependencies": {
+    "babel-traverse": "6.24.1",
+    "babel-types": "6.24.1",
+    "babylon": "6.17.1",
+    "lazy": "1.0.11",
+    "nativescript-dev-typescript": "^0.4.5",
+    "typescript": "^2.3.2"
+  }
+}
