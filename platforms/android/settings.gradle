@@ -1,4 +1,4 @@
-rootProject.name = "rpsconf"
+rootProject.name = "RPS Conf"
 include "asbg"
 project(":asbg").projectDir = file("build-tools/android-static-binding-generator")
 
