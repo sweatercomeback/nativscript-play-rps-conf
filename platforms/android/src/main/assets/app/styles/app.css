@@ -1,0 +1,15 @@
+
+.page-header {
+    background-size: cover;
+    width: 100;
+}
+
+.page-title {
+    font-size: 14;
+    color: orange;
+    margin: 15;
+}
+
+.bold {
+    font-weight: bold;
+}

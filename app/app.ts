@@ -1,3 +1,4 @@
 import application = require("application");
-application.start({ moduleName: "main-page" });
-console.log("started");
+application.setCssFileName("styles/app.css");
+application.start({ moduleName: "pages/main-page/main-page" });
+

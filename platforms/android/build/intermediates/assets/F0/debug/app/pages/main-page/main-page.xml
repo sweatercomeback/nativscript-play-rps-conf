@@ -1,0 +1,16 @@
+<Page pagexmlns="http://schemas.nativescript.org/tns.xsd"
+    loaded="pageLoaded">
+    <Button text="FUCK" />
+    <GridLayout rows="auto, *">
+        <StackLayout>
+        </StackLayout>
+        
+        <GridLayout rows="auto, *" row="1">
+        <ListView items="{{ sessions }}">
+            <ListView.itemTemplate>
+                <Label text="item" />
+            </ListView.itemTemplate>
+        </ListView>
+        </GridLayout>
+    </GridLayout>
+</Page>
