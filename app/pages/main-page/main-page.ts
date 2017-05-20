@@ -1,25 +1,13 @@
 import { EventData, Observable } from 'data/observable';
 import { Page } from 'ui/page';
 
+import { MainViewModel } from './main-view-model';
 var page: Page;
-var viewModel = new Observable();
-var tempSessions = [
-    {
-        id: '0', 
-        title: 'session 1'
-    },
-    {
-        id: '1', 
-        title: 'session 2'
-    },
-    {
-        id: '2', 
-        title: 'session 3'
-    }
-];
+
+var vm = new MainViewModel();
 
 export function pageLoaded(args: EventData) {
     page = <Page>args.object;
-    viewModel.set("sessions", tempSessions);
-    page.bindingContext = viewModel;
+    page.bindingContext = vm;
+    vm.init();
 }

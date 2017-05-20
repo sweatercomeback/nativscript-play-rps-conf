@@ -1,15 +1,16 @@
 <Page pagexmlns="http://schemas.nativescript.org/tns.xsd"
-    loaded="pageLoaded" actionBarHidden="true"> 
+    loaded="pageLoaded" actionBarHidden="true">
     <GridLayout columns="*" rows="auto, *">
-        
+
         <StackLayout class="page-header">
             <Label text="Header" class="page-title"/>
         </StackLayout>
-        
+
         <GridLayout rows="*" row="1">
         <ListView items="{{ sessions }}">
             <ListView.itemTemplate>
-                <Label text="{{ title }}" />
+              
+              <Label text="{{ title + ' ' + room }}" />
             </ListView.itemTemplate>
         </ListView>
         </GridLayout>
