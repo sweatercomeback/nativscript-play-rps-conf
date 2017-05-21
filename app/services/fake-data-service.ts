@@ -10,21 +10,20 @@ let SESSION_LENGTH = 60;
 
 export function generateSpeakers() : Array<Speaker> {
     var speakerList: Array<Speaker> = [];
-    //var avatarsMen = getSpeakerAvatars('images/speakers/base64/men.txt');
-    //var avatarsWomen = getSpeakerAvatars('images/speakers/base64/women.txt');
+    var avatarsMen = getSpeakerAvatars('images/speakers/base64/men.txt');
+    var avatarsWomen = getSpeakerAvatars('images/speakers/base64/women.txt');
     for (var i = 0; i <= NUM_SPEAKERS; i++) {
         var genderBool = faker.random.boolean();
         var genderInt =  parseInt(genderBool + '');
         var firstName = faker.name.firstName(genderInt);
         var lastName = faker.name.lastName(genderInt);
-        //var picture = genderBool ? avatarsMen[faker.random.number(avatarsMen.length-1)] : avatarsWomen[faker.random.number(avatarsWomen.length-1)];
-        
+        var picture = genderBool ? avatarsMen[faker.random.number(avatarsMen.length-1)] : avatarsWomen[faker.random.number(avatarsWomen.length-1)];
         let s: Speaker = {
             id: faker.random.uuid(),
             name: firstName + ' ' + lastName,
             title: faker.name.jobTitle(),
             company: faker.company.companyName(),
-            picture: '',
+            picture: picture,
             twitterName: '@' + faker.internet.userName(firstName, lastName)
         };
         

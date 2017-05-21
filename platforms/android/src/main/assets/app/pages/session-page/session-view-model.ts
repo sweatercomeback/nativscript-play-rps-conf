@@ -4,12 +4,16 @@ import { Session, Speaker, RoomInfo } from '../../shared/interfaces';
 export class SessionViewModel extends Observable implements Session {
     private _session: Session;
     private _favorite: boolean;
-    
+    private _startDt: Date;
+    private _endDt: Date;
+
     constructor(source?: Session) {
         super();
         
         if (source) {
             this._session = source;
+            this._startDt = this.fixDate(new Date(source.start));
+            this._endDt = this.fixDate(new Date(source.end));
         }
     }
     
@@ -37,6 +41,26 @@ export class SessionViewModel extends Observable implements Session {
 
     get end(): string {
         return this._session.end;
+    }
+     get startDt(): Date {
+        return this._startDt;
+    }
+
+    get endDt(): Date {
+        return this._endDt;
+    }
+    
+    get range(): string {
+        var startMinutes = this.startDt.getMinutes() + '';
+        var endMinutes = this.endDt.getMinutes() + '';
+        var startAM = this.startDt.getHours() < 12 ? 'am' : 'pm';
+        var endAM = this.endDt.getHours() < 12 ? 'am' : 'pm';
+
+        var startHours = (this.startDt.getHours() <= 12 ? this.startDt.getHours() : this.startDt.getHours() - 12) + '';
+        var endHours = (this.endDt.getHours() <= 12 ? this.endDt.getHours() : this.endDt.getHours() - 12) + '';
+
+        return (startHours.length === 1 ? '0' + startHours : startHours) + ':' + (startMinutes.length === 1 ? '0' + startMinutes : startMinutes) + startAM +
+            ' - ' + (endHours.length === 1 ? '0' + endHours : endHours) + ':' + (endMinutes.length === 1 ? '0' + endMinutes : endMinutes) + endAM;
     }
     get speakers(): Array<Speaker> {
         return this._session.speakers;
@@ -70,5 +94,8 @@ export class SessionViewModel extends Observable implements Session {
     
     public toggleFavorite() {
         this.favorite = !this.favorite;
+    }
+    private fixDate(date: Date): Date {
+        return new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds());
     }
 }
