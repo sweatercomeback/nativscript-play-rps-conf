@@ -1,2 +1,1 @@
-/home/adam/Development/Play/rps-conf/platforms/android/src/main/assets/app/app.js
 /home/adam/Development/Play/rps-conf/platforms/android/src/main/assets/app/pages/main-page/main-page.js

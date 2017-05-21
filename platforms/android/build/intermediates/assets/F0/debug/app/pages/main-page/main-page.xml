@@ -1,16 +1,31 @@
-<Page pagexmlns="http://schemas.nativescript.org/tns.xsd"
-    loaded="pageLoaded">
-    <Button text="FUCK" />
-    <GridLayout rows="auto, *">
-        <StackLayout>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"  actionBarHidden="true"
+      loaded="pageLoaded">
+      
+      <GridLayout rows="auto, *">
+        <!-- Header -->
+        <StackLayout cssClass="page-header">
+            <Label text="Header" cssClass="page-title bold"  horizontalAlignment="center" margin="15" />
         </StackLayout>
-        
-        <GridLayout rows="auto, *" row="1">
-        <ListView items="{{ sessions }}">
+
+        <!-- Sessions Views -->
+        <GridLayout  rows="auto, *" row="1">
+          <ListView items="{{ sessions }}" row="1">
             <ListView.itemTemplate>
-                <Label text="item" />
+               <GridLayout columns="auto, *" >
+               
+                  <GridLayout columns="auto" rows="auto" cssClass="favourite-wrap"
+                              tap="toggleFavorite">
+                    <Image id="imgFav" stretch="none" cssClass="icon-image" src="{{ favorite ? 'res://ic_add_to_fav_1' : 'res://ic_add_to_fav' }}" />
+                  </GridLayout>
+               
+                  <StackLayout col="1">
+                    <Label text="{{ title }}" textWrap="true" cssClass="info-bigger" />
+                    <Label text="{{ room }}" cssClass="info-orange" />
+                  </StackLayout> 
+               </GridLayout>
             </ListView.itemTemplate>
-        </ListView>
+          </ListView>
         </GridLayout>
+        
     </GridLayout>
 </Page>

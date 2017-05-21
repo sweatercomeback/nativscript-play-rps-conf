@@ -1,14 +1,70 @@
 [
     {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/ic_share.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/ic_share.png"
+    },
+    {
         "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/background.png",
         "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/background.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/ic_arrow_back.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/ic_arrow_back.png"
     },
     {
         "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/logo.png",
         "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/logo.png"
     },
     {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/google.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/google.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/linkedin.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/linkedin.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/twitter.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/twitter.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/ic_add_to_fav.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/ic_add_to_fav.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/ic_add_to_fav_1.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/ic_add_to_fav_1.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/sponsor_logo_fdg.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/sponsor_logo_fdg.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/sponsor_logo_umer.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/sponsor_logo_umer.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/ic_map.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/ic_map.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/splash.9.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/splash.9.png"
+    },
+    {
         "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/icon.png",
         "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/ic_search.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/ic_search.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/ic_menu.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/ic_menu.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxhdpi/facebook.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxhdpi/facebook.png"
     }
 ]

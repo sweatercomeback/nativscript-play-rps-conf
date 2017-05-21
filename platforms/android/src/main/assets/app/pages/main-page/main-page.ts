@@ -1,25 +1,20 @@
-import { EventData, Observable } from 'data/observable';
+import { EventData } from 'data/observable';
+import { GestureEventData } from 'ui/gestures';
 import { Page } from 'ui/page';
 
+import { MainViewModel } from './main-view-model';
+import { SessionViewModel } from '../session-page/session-view-model';
+
+var vm = new MainViewModel();
 var page: Page;
-var viewModel = new Observable();
-var tempSessions = [
-    {
-        id: '0', 
-        title: 'session 1'
-    },
-    {
-        id: '1', 
-        title: 'session 2'
-    },
-    {
-        id: '2', 
-        title: 'session 3'
-    }
-];
 
 export function pageLoaded(args: EventData) {
     page = <Page>args.object;
-    viewModel.set("sessions", tempSessions);
-    page.bindingContext = viewModel;
+    page.bindingContext = vm;
+    vm.init();
+}
+
+export function toggleFavorite(args: GestureEventData) {
+    var session = <SessionViewModel>args.view.bindingContext;
+    session.toggleFavorite();
 }

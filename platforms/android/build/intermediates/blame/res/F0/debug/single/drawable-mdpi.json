@@ -4,11 +4,63 @@
         "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/icon.png"
     },
     {
-        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/background.png",
-        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/background.png"
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/sponsor_logo_fdg.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/sponsor_logo_fdg.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/twitter.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/twitter.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/ic_menu.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/ic_menu.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/linkedin.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/linkedin.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/ic_share.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/ic_share.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/facebook.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/facebook.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/ic_add_to_fav.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/ic_add_to_fav.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/ic_map.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/ic_map.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/sponsor_logo_umer.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/sponsor_logo_umer.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/ic_arrow_back.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/ic_arrow_back.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/ic_search.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/ic_search.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/splash.9.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/splash.9.png"
     },
     {
         "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/logo.png",
         "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/logo.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/ic_add_to_fav_1.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/ic_add_to_fav_1.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-mdpi/google.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-mdpi/google.png"
     }
 ]

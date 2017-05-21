@@ -38,7 +38,6 @@
     "type": "version"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-3.0.0.tgz",

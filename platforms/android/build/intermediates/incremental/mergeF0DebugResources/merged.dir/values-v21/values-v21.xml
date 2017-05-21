@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="bgColor">#00000000</color>
     <color name="notification_action_color_filter">@color/secondary_text_default_material_light</color>
     <color name="ns_accent">#3d5afe</color>
     <dimen name="notification_content_margin_start">0dp</dimen>
     <dimen name="notification_main_column_padding_top">0dp</dimen>
     <dimen name="notification_media_narrow_margin">12dp</dimen>
-    <style name="AppTheme" parent="AppThemeBase">
-        <item name="android:datePickerStyle">@style/SpinnerDatePicker</item>
-        <item name="android:timePickerStyle">@style/SpinnerTimePicker</item>
-    </style>
+    <string name="app_name">RBSConf</string>
+    <string name="title_activity_kimera">RBSConf</string>
+    <style name="ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+    <item name="android:background">@color/bgColor</item>
+    <item name="android:backgroundStacked">@color/bgColor</item>
+    <item name="android:displayOptions"/>
+  </style>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    <item name="android:windowActionBar">false</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBarOverlay">true</item>
+    <item name="android:actionMenuTextColor">#fff</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+  </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+    <item name="android:windowBackground">@null</item>
+  </style>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
     <style name="Base.TextAppearance.AppCompat.Body2" parent="android:TextAppearance.Material.Body2"/>
@@ -228,9 +243,6 @@
     <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="android:Widget.Material.TextView.SpinnerItem"/>
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation">
     </style>
-    <style name="NativeScriptToolbarStyle" parent="NativeScriptToolbarStyleBase">
-        <item name="android:elevation">4dp</item>
-    </style>
     <style name="Platform.AppCompat" parent="Platform.V21.AppCompat"/>
     <style name="Platform.AppCompat.Light" parent="Platform.V21.AppCompat.Light"/>
     <style name="Platform.ThemeOverlay.AppCompat" parent="">
@@ -269,12 +281,9 @@
         <item name="android:buttonBarStyle">?attr/buttonBarStyle</item>
         <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
     </style>
-    <style name="SpinnerDatePicker" parent="android:Widget.Material.Light.DatePicker">
-        <item name="android:datePickerMode">spinner</item>
-    </style>
-    <style name="SpinnerTimePicker" parent="android:Widget.Material.Light.TimePicker">
-        <item name="android:timePickerMode">spinner</item>
-    </style>
+    <style name="SplashTheme" parent="AppBaseTheme">
+    <item name="android:windowBackground">@drawable/splash</item>
+  </style>
     <style name="TextAppearance.AppCompat.Notification" parent="@android:style/TextAppearance.Material.Notification"/>
     <style name="TextAppearance.AppCompat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info"/>
     <style name="TextAppearance.AppCompat.Notification.Info.Media">

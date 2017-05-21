@@ -19,6 +19,7 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <color name="bgColor">#00000000</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -63,7 +64,6 @@
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <color name="notification_material_background_media_default_color">#ff424242</color>
     <color name="ns_accent">#33B5E5</color>
-    <color name="ns_blue">#272734</color>
     <color name="ns_primary">#F5F5F5</color>
     <color name="ns_primaryDark">#757575</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
@@ -585,7 +585,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">rpsconf</string>
+    <string name="app_name">RBSConf</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
@@ -596,7 +596,12 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="title_activity_kimera">rpsconf</string>
+    <string name="title_activity_kimera">RBSConf</string>
+    <style name="ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+    <item name="android:background">@color/bgColor</item>
+    <item name="android:backgroundStacked">@color/bgColor</item>
+    <item name="android:displayOptions"/>
+  </style>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -605,16 +610,17 @@
         <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
-    <style name="AppTheme" parent="AppThemeBase">
-    </style>
-    <style name="AppThemeBase" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="toolbarStyle">@style/NativeScriptToolbarStyle</item>
-
-        <item name="colorPrimary">@color/ns_primary</item>
-        <item name="colorPrimaryDark">@color/ns_primaryDark</item>
-        <item name="colorAccent">@color/ns_accent</item>
-
-    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    <item name="android:windowActionBar">false</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBarOverlay">true</item>
+    <item name="android:actionMenuTextColor">#fff</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+  </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+    <item name="android:windowBackground">@null</item>
+  </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
         <item name="listLayout">@layout/abc_select_dialog_material</item>
@@ -1638,29 +1644,6 @@
         <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
-    <style name="LaunchScreenTheme" parent="LaunchScreenThemeBase">
-    </style>
-    <style name="LaunchScreenThemeBase" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="toolbarStyle">@style/NativeScriptToolbarStyle</item>
-
-        <item name="colorPrimary">@color/ns_primary</item>
-        <item name="colorPrimaryDark">@color/ns_primaryDark</item>
-        <item name="colorAccent">@color/ns_accent</item>
-
-        <item name="android:windowBackground">@drawable/splash_screen</item>
-        
-        <item name="android:windowActionBarOverlay">true</item>  
-        <item name="android:windowTranslucentStatus">true</item>
-
-    </style>
-    <style name="NativeScriptToolbarStyle" parent="NativeScriptToolbarStyleBase">
-    </style>
-    <style name="NativeScriptToolbarStyleBase" parent="Widget.AppCompat.Toolbar">
-        <item name="android:background">@color/ns_primary</item>
-        <item name="theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
-        <item name="popupTheme">@style/ThemeOverlay.AppCompat</item>
-
-    </style>
     <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
@@ -1817,6 +1800,9 @@
         <item name="android:paddingLeft">@dimen/abc_action_bar_overflow_padding_start_material</item>
         <item name="android:paddingRight">@dimen/abc_action_bar_overflow_padding_end_material</item>
     </style>
+    <style name="SplashTheme" parent="AppBaseTheme">
+    <item name="android:windowBackground">@drawable/splash</item>
+  </style>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>
     <style name="TextAppearance.AppCompat.Body2" parent="Base.TextAppearance.AppCompat.Body2"/>

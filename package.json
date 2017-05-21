@@ -6,11 +6,11 @@
   "main": "app.js",
   "nativescript": {
     "id": "org.nativescript.rpsconf",
-    "tns-android": {
-      "version": "3.0.0"
-    },
     "tns-ios": {
       "version": "3.0.1"
+    },
+    "tns-android": {
+      "version": "3.0.0"
     }
   },
   "dependencies": {

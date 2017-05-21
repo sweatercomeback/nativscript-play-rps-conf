@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        ".gitignore": true,
+		"hooks/": true,
+        "platforms": true,
+        "node_modules": true,
+        "**/LICENSE": true,
+        "README.md": true,
+        "tsconfig.json": true,
+        "**/*.js": true,
+        "**/*.js.map": true,
+        "lib": true,
+        ".vscode/": true,
+        //"**/package.json": true,
+        "references.d.ts": true
+	}
+}

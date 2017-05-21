@@ -1,7 +1,43 @@
 [
     {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/ic_add_to_fav_1.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxxhdpi/ic_add_to_fav_1.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/splash.9.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxxhdpi/splash.9.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/ic_menu.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxxhdpi/ic_menu.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/ic_arrow_back.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxxhdpi/ic_arrow_back.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/ic_share.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxxhdpi/ic_share.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/ic_search.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxxhdpi/ic_search.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/linkedin.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxxhdpi/linkedin.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/twitter.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxxhdpi/twitter.png"
+    },
+    {
         "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/logo.png",
         "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/ic_add_to_fav.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxxhdpi/ic_add_to_fav.png"
     },
     {
         "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/background.png",
@@ -10,5 +46,17 @@
     {
         "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/icon.png",
         "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/google.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxxhdpi/google.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/ic_map.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxxhdpi/ic_map.png"
+    },
+    {
+        "merged": "/home/adam/Development/Play/rps-conf/platforms/android/build/intermediates/res/merged/F0/debug/drawable-xxxhdpi/facebook.png",
+        "source": "/home/adam/Development/Play/rps-conf/platforms/android/src/main/res/drawable-xxxhdpi/facebook.png"
     }
 ]

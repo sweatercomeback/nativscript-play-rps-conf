@@ -1,13 +1,35 @@
-
 .page-header {
+    background-image: url('res://background');
     background-size: cover;
-    width: 100;
 }
 
 .page-title {
     font-size: 14;
-    color: orange;
-    margin: 15;
+    color: #fac950;
+}
+
+.icon-image {
+    vertical-align: center;
+    horizontal-align: left;
+}
+
+.favourite-wrap {
+    horizontal-align: left;
+    vertical-align: top;
+    padding: 12;
+    margin-right: 16;
+}
+
+.info-bigger {
+    color: #555555;
+    font-size: 17;
+    margin: 0;
+}
+
+.info-orange {
+    font-size: 12;
+    color: #A17201;
+    margin: 0;
 }
 
 .bold {

@@ -1,17 +1,31 @@
-<Page pagexmlns="http://schemas.nativescript.org/tns.xsd"
-    loaded="pageLoaded" actionBarHidden="true"> 
-    <GridLayout columns="*" rows="auto, *">
-        
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"  actionBarHidden="true"
+      loaded="pageLoaded">
+      
+      <GridLayout rows="auto, *">
+        <!-- Header -->
         <StackLayout class="page-header">
-            <Label text="Header" class="page-title"/>
+            <Label text="Header" class="page-title bold"  horizontalAlignment="center" margin="15" />
         </StackLayout>
-        
-        <GridLayout rows="*" row="1">
-        <ListView items="{{ sessions }}">
+
+        <!-- Sessions Views -->
+        <GridLayout  rows="auto, *" row="1">
+          <ListView items="{{ sessions }}" row="1">
             <ListView.itemTemplate>
-                <Label text="{{ title }}" />
+               <GridLayout columns="auto, *" >
+               
+                  <GridLayout columns="auto" rows="auto" class="favourite-wrap"
+                              tap="toggleFavorite">
+                    <Image id="imgFav" stretch="none" class="icon-image" src="{{ favorite ? 'res://ic_add_to_fav_1' : 'res://ic_add_to_fav' }}" />
+                  </GridLayout>
+               
+                  <StackLayout col="1">
+                    <Label text="{{ title }}" textWrap="true" class="info-bigger" />
+                    <Label text="{{ room }}" class="info-orange" />
+                  </StackLayout> 
+               </GridLayout>
             </ListView.itemTemplate>
-        </ListView>
+          </ListView>
         </GridLayout>
+        
     </GridLayout>
 </Page>
