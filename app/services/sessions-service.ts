@@ -1,7 +1,9 @@
+import * as httpModule from 'http';
+import * as constantsModule from '../shared/constants';
 import * as fakeDataServiceModule from './fake-data-service';
 
 export class SessionsService {
-    private _useHttpService: boolean = false;
+    private _useHttpService: boolean = true;
 
     public loadSessions<T>() : Promise<T> {
         if(this._useHttpService) {
@@ -12,7 +14,12 @@ export class SessionsService {
     }
 
     private loadSessionsViaHttp<T>() : Promise<T> {
-        return new Promise<T>(()=>{});
+        var reqParams = {
+            url: constantsModule.AZURE_URL + constantsModule.AZURE_TABLE_PATH + constantsModule.AZURE_TABLE_NAME + '?$orderby=start',
+            method: 'GET',
+            headers: constantsModule.AZURE_VERSION_HEADER
+        };
+        return httpModule.getJSON(reqParams);
     }
 
     private loadSessionsViaFaker<T>() : Promise<T> {
