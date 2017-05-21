@@ -39,3 +39,9 @@ export interface FavouriteSession {
     calendarEventId: string;
 }
 
+export interface ConfTimeSlot {
+    title: string;
+    isBreak: boolean;
+    start: Date;
+    end: Date;
+}

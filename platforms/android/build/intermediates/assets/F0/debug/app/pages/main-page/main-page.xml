@@ -3,8 +3,8 @@
       
       <GridLayout rows="auto, *">
         <!-- Header -->
-        <StackLayout cssClass="page-header">
-            <Label text="Header" cssClass="page-title bold"  horizontalAlignment="center" margin="15" />
+        <StackLayout class="page-header">
+            <Label text="Header" class="page-title bold"  horizontalAlignment="center" margin="15" />
         </StackLayout>
 
         <!-- Sessions Views -->
@@ -13,14 +13,14 @@
             <ListView.itemTemplate>
                <GridLayout columns="auto, *" >
                
-                  <GridLayout columns="auto" rows="auto" cssClass="favourite-wrap"
+                  <GridLayout columns="auto" rows="auto" class="favourite-wrap"
                               tap="toggleFavorite">
-                    <Image id="imgFav" stretch="none" cssClass="icon-image" src="{{ favorite ? 'res://ic_add_to_fav_1' : 'res://ic_add_to_fav' }}" />
+                    <Image id="imgFav" stretch="none" class="icon-image" src="{{ favorite ? 'res://ic_add_to_fav_1' : 'res://ic_add_to_fav' }}" />
                   </GridLayout>
                
                   <StackLayout col="1">
-                    <Label text="{{ title }}" textWrap="true" cssClass="info-bigger" />
-                    <Label text="{{ room }}" cssClass="info-orange" />
+                    <Label text="{{ title }}" textWrap="true" class="info-bigger" />
+                    <Label text="{{ room }}" class="info-orange" />
                   </StackLayout> 
                </GridLayout>
             </ListView.itemTemplate>
